@@ -10,11 +10,13 @@ font-size:40px;
 body {
  background-color:#ccffcc;
 }
-p2{
+
+p{
     font-style: oblique;
     text-align: right;
     position: center;
 }
+
 button
 {
     cursor:pointer;
