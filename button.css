@@ -1,53 +1,78 @@
-h1
-{
-text-align: center;
-font-family: "Raleway", "Helvetica Neue", Arial, Helvetica, sans-serif;
-font-size: 50px;
-}
-h4{
-text-align: center;
-font-size:40px;
-}
-body {
- background-color:#ccffcc;
+h1 {
+    text-align: center;
+    font-family: "Raleway", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 50px;
 }
 
-.grid-container{
+h4 {
+    text-align: center;
+    font-size: 40px;
+}
+
+body {
+    background-color: #ccffcc;
+    margin:1px;
+}
+
+.grid-container {
     background-color: #ccffcc;
     display: grid;
     grid-template-columns: auto auto;
-
 }
 
-.grid-item{
+.grid-item {
     text-align: center;
+    padding: 1cm;
 }
 
-p{
+p {
     font-style: oblique;
-    text-align: center;
+    text-align: left;
     position: center;
+    font-size: 25px;
 }
 
-button
-{
-    cursor:pointer;
+.header {
+    background-color: white;
+    width:100%;
+    height:102px;
+    padding: 10px;
+}
+
+.content {
+    padding: 0px
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 150px;
+}
+
+button {
+    cursor: pointer;
     background-color: darkseagreen;
     color: aliceblue;
     background-image: "An_Indian_call_center.jpg";
-    background-size:cover;
+    background-size: cover;
 }
 
-image{
-    width:40px;
-    height:50px;
+image {
+    width: 40px;
+    height: 50px;
 }
 
-button:hover {background-color:aquamarine};
+button:hover {
+    background-color: aquamarine;
+}
 
 button:active {
-    background-color:darkseagreen;
-    box-shadow: 5px rgb(25,25,25);
+    background-color: darkseagreen;
+    box-shadow: 5px rgb(25, 25, 25);
     transform: transparent;
-    background-size:cover;
+    background-size: cover;
 }
