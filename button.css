@@ -13,7 +13,7 @@ body {
 }
 
 .grid-container{
-    background-color: white;
+    background-color: #ccffcc;
     display: grid;
     grid-template-columns: auto auto;
 
