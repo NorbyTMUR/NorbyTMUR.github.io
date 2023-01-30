@@ -87,9 +87,11 @@ button:active {
 }
 
 #skylineimage {
+    position: relative;
     width:400px;
     height:300px;
     float: right;
+    top: -200px;
     padding:2cm;
 }
 
